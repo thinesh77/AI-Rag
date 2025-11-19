@@ -4,7 +4,7 @@ import asyncio
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
 from langchain_ollama import OllamaLLM, OllamaEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
 from pinecone import Pinecone, ServerlessSpec
 from dotenv import load_dotenv

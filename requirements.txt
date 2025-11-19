@@ -20,5 +20,8 @@ docx2txt
 mysql-connector-python
 sqlalchemy
 
+# Text splitters (new LangChain)
+langchain-text-splitters
+
 # Environment variable loader
 python-dotenv
