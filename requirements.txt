@@ -1,0 +1,24 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# LangChain core framework & Ollama integration
+langchain
+langchain-community
+langchain-ollama
+mistral
+
+# Pinecone Vector Database
+pinecone
+
+# Document loaders / parsing
+pypdf
+python-multipart
+docx2txt
+
+# Install MySQL Connector
+mysql-connector-python
+sqlalchemy
+
+# Environment variable loader
+python-dotenv
